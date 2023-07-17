@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #15191e;
+}
+.profile-img{
+    height: 100%;
+    width: 100%;
+}
+.profile-sect{
+    background-color: #1d232a;
+}
+.tech-stack{
+    background-color: #9c15ff;
+}
+.list li::marker{
+    font-size: 1.2rem;
+    color: #15191e;
+}
+.main-sect{
+    background-color: #191d23;
+}
+@media (max-width: 639px) {
+    .lg\:grid-cols-3 {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
